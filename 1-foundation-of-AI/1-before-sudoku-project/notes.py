@@ -70,6 +70,7 @@
 ##################################################################
 ##################################################################
 # ANACONDA
+# https://conda.io/docs/commands/conda-list.html
 # 1. Create Anaconda environment:
 #   conda create -n tea_facts python=3
 # 2. Enter environment
@@ -89,7 +90,7 @@
 #   conda env export > environment.yaml
 #   conda env export > environment.yml
 # 9. Create Environment from file
-#   conda evn create -f environment.yaml
+#   conda env create -f environment.yaml
 # 10. List Environments
 #   conda env list
 # 11. Remove Environments
