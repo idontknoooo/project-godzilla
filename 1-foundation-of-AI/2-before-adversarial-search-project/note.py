@@ -40,3 +40,34 @@
 #   c. Prune: Omit the process of evaluating, reorder nodes can make more nodes available for pruning
 # 5. AI: Clever solutions to Exponential Problems
 # 6. 3-Players Max-Max-Max Pruning
+
+# LESSON 11: Search
+# 1. Definition of A problem
+#   1. Initial State: S_0
+#   2. Actions: a_1, a_2 ...
+#   3. Result: (s, a) -> s'; take a state & action and return a new state
+#   4. GoalTest: (s) -> True | False; take a state and return whether that's the goal
+#   5. Path Cost (S_i->S_i+1->S_i+2): Take several states and return the cost of this sequence
+#   6. Step Cost (s, a, s'): Take a old state(s), action(a) and new state(s') and return the cost of that step
+#   7. Explored: All node we explored except 'frontiers'
+#   8. Frontier: The deepest node we can reached next
+#   9. Unexplored: Nodes unreached
+# 2. Cheapest First Search: A greedy algorithm
+#   a. Both Breadth-first search and cheapest-first search can find shortest path, DFS cannot
+#   b. BFS and CFS are complete, DFS is not
+#   c. Greedy Best-first search will find the goal but may not be the shortest path
+#   d. Uniform cost search: Search with minimum cost
+# 3. A* Search: Best Estimated Total Path cost first
+#   a. Min value of f = g+h = path length + estimated distance
+#   b. g(path) = path cost
+#   c. h(path) = h(s) = estimated distance to goal
+#   d. Goal test works by taking paths off the frontier, not putting paths on the frontier
+#   e. Will A* always find the lowest cost path? It depends on the huristic function
+# 4. Problem with search
+#   a. Domain is fully observable
+#   b. The Domain must be know: Must know the set of available actions to us
+#   c. Domain must be discrete: Finite number of actions to choose from
+#   d. Deterministic: Must know the result of taking an action
+#   e. Static: Must be nothing else that can chage the world other than our own action
+# 5. "implementation for search.png"
+# 6. Pac-man LAB: TODO
