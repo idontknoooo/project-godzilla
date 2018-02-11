@@ -61,3 +61,14 @@
 # 4. Constraint Propagation and Arc consistency:
 #   A variable and a constraint satisfaction problem is arc consistent with respect to another variable. If there is some value still available for the second variable after we assign a value to the first varaible. If all variables satisfy this condition, then the network is arc consistent.
 # 5. Structured CSP:
+
+# LESSON 13: Logic and Reasoning
+# 1. Propositional Logic (Truth Table)
+#       Valid: Doesn't matter what the value of variable, it always true
+#       Satisfiable: True when variable is some value (not any value)
+#       Unsatifiable: Always false, no matter what.
+# 2. First Order Logic:
+#   a. Model: A value for each propositional symbol
+#   b. Syntax: Sentences & Terms. 
+#       Sentences: Like propositional logic 
+#       Terms: Describe object
