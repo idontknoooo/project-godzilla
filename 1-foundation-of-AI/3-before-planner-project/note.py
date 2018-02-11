@@ -1,4 +1,4 @@
-# LESSON 11: Search
+# LESSON 10: Search
 # 1. Definition of A problem
 #   1. Initial State: S_0
 #   2. Actions: a_1, a_2 ...
@@ -30,7 +30,7 @@
 # 6. Pac-man LAB: TODO
 
 
-# LESSON 12: Simulated Annealing (退火：对材料微结构的热处理)
+# LESSON 11: Simulated Annealing (退火：对材料微结构的热处理)
 # Resource: https://blog.openai.com/evolution-strategies/
 #           http://thales.cheme.cmu.edu/dfo/comparison/dfo.pdf
 # 
@@ -49,3 +49,15 @@
 # 5. Local beam search: Start with multiply points and search for their neighbours, keep the a top few performance and do the same thing again.
 # 6. Genetic Algorithm: Have several seed at start, using combination and mutation to generate possible best solution (global maximum)
 # 7. Lab: simulated-annealing
+
+# LESSON 12: Constraint Satisfaction Problems (CSP)
+# 1. 3 Color Map problem
+# 2. Backtracking Search: Recursive search
+#   a. To improve backtracking search:
+#       i.   Least constraining value: Choose the variable that rules out the fewest values in the remaining variables.
+#       ii.  Minimum Remaining Values (MRV): Choose the variable with the fewest legal values
+#       iii. Degree Huristic: Choose the variable with the most constraints on remaining variables
+# 3. Forward Checking: Early warning system to prevent search going down to the wrong branch
+# 4. Constraint Propagation and Arc consistency:
+#   A variable and a constraint satisfaction problem is arc consistent with respect to another variable. If there is some value still available for the second variable after we assign a value to the first varaible. If all variables satisfy this condition, then the network is arc consistent.
+# 5. Structured CSP:
