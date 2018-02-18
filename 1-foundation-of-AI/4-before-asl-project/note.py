@@ -15,3 +15,11 @@
 #   Conditional Indenpendence != Absolute Independence, they don't imply each other either
 # 5. Different Type Of Bayes Network
 # 6. D Separation 
+
+# LESSON 18: Inference Of Bayes Nets
+# 1. Evidence Node: Variables that we know the values of. 
+# 2. Query Node: Variables that we want to find out the values of. 
+# 3. Hidden Node: Anything that is neither evidence nor query node. 
+# 4. Enumeration: Read Probability Table
+# 5. Causal Direction: Inference flow from causes to result. 
+# 6. 
