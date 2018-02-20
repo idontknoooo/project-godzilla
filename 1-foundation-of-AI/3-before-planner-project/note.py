@@ -72,3 +72,20 @@
 #   b. Syntax: Sentences & Terms. 
 #       Sentences: Like propositional logic 
 #       Terms: Describe object
+
+
+# LESSON 14: Problem Solving vs Planning
+# 1. Difficuties:
+#   Stochastic 
+#   Multiagent 
+#   Partial Observability
+#   Lack of knowledge
+#   Hierachical 
+# 2. State space of Actual Space vs State space of Belief States
+#   a. Conformant Plan (顺应规划): Knowing states by perform action given no knowledge of current state 
+#   b. Partial Obserable: No knowledge of other space, but do know what's in current space 
+# 3. Progression Search vs Regression Search
+#   a. Progression Search: Search from beginning to the ultimate goal
+#   b. Regression Search: Search from goal to beginning
+# 4. Plan Space Search:
+#   a. Search plan instead of search steps 
