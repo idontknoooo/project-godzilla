@@ -1,0 +1,84 @@
+[I 23:36:10.738 NotebookApp] The port 8888 is already in use, trying another port.
+[I 23:36:10.758 NotebookApp] Serving notebooks from local directory: /home/pco/Documents/project-godzilla/project/sudoku-master/AIND-Sudoku-master
+[I 23:36:10.758 NotebookApp] 0 active kernels 
+[I 23:36:10.758 NotebookApp] The Jupyter Notebook is running at: http://localhost:8889/?token=ab8a0132a74fb6c9bc98281b4c97737020d9815f55d26570
+[I 23:36:10.758 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 23:36:10.761 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=ab8a0132a74fb6c9bc98281b4c97737020d9815f55d26570
+[I 23:36:11.236 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[14649:14688:0221/233611.295532:ERROR:browser_gpu_channel_host_factory.cc(121)] Failed to launch GPU process.
+Created new window in existing browser session.
+[I 23:36:24.993 NotebookApp] Creating new notebook in 
+[I 23:36:26.547 NotebookApp] Kernel started: c18165a6-25e2-4c9c-bc58-ace691c82bd4
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[I 23:36:29.558 NotebookApp] KernelRestarter: restarting kernel (1/5)
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[I 23:36:32.582 NotebookApp] KernelRestarter: restarting kernel (2/5)
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[I 23:36:35.601 NotebookApp] KernelRestarter: restarting kernel (3/5)
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[W 23:36:36.634 NotebookApp] Timeout waiting for kernel_info reply from c18165a6-25e2-4c9c-bc58-ace691c82bd4
+[I 23:36:38.616 NotebookApp] KernelRestarter: restarting kernel (4/5)
+WARNING:root:kernel c18165a6-25e2-4c9c-bc58-ace691c82bd4 restarted
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[W 23:36:41.638 NotebookApp] KernelRestarter: restart failed
+[W 23:36:41.639 NotebookApp] Kernel c18165a6-25e2-4c9c-bc58-ace691c82bd4 died, removing from map.
+ERROR:root:kernel c18165a6-25e2-4c9c-bc58-ace691c82bd4 restarted failed!
+[W 23:36:41.666 NotebookApp] Kernel deleted before session
+[W 23:36:41.667 NotebookApp] 410 DELETE /api/sessions/4e2d8ca5-8061-4bfa-9431-ef7d248c8608 (127.0.0.1) 2.87ms referer=http://localhost:8889/notebooks/Untitled1.ipynb?kernel_name=python3
+[W 23:36:43.700 NotebookApp] Session not found: session_id='4e2d8ca5-8061-4bfa-9431-ef7d248c8608'
+[W 23:36:43.700 NotebookApp] 404 DELETE /api/sessions/4e2d8ca5-8061-4bfa-9431-ef7d248c8608 (127.0.0.1) 1.63ms referer=http://localhost:8889/notebooks/Untitled1.ipynb?kernel_name=python3
+[I 23:36:43.722 NotebookApp] Kernel started: 3475f24e-3727-45cc-9bca-8da4f0b35e9f
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[I 23:36:46.726 NotebookApp] KernelRestarter: restarting kernel (1/5)
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[I 23:36:49.749 NotebookApp] KernelRestarter: restarting kernel (2/5)
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[I 23:36:52.765 NotebookApp] KernelRestarter: restarting kernel (3/5)
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[W 23:36:53.740 NotebookApp] Timeout waiting for kernel_info reply from 3475f24e-3727-45cc-9bca-8da4f0b35e9f
+[I 23:36:55.773 NotebookApp] KernelRestarter: restarting kernel (4/5)
+WARNING:root:kernel 3475f24e-3727-45cc-9bca-8da4f0b35e9f restarted
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[W 23:36:58.796 NotebookApp] KernelRestarter: restart failed
+[W 23:36:58.797 NotebookApp] Kernel 3475f24e-3727-45cc-9bca-8da4f0b35e9f died, removing from map.
+ERROR:root:kernel 3475f24e-3727-45cc-9bca-8da4f0b35e9f restarted failed!
+[W 23:36:58.820 NotebookApp] Kernel deleted before session
+[W 23:36:58.820 NotebookApp] 410 DELETE /api/sessions/fd7f4771-e0f5-4b5b-920d-41de3e0f058c (127.0.0.1) 3.06ms referer=http://localhost:8889/notebooks/Untitled1.ipynb?kernel_name=python3
+[W 23:37:00.624 NotebookApp] Session not found: session_id='fd7f4771-e0f5-4b5b-920d-41de3e0f058c'
+[W 23:37:00.625 NotebookApp] 404 DELETE /api/sessions/fd7f4771-e0f5-4b5b-920d-41de3e0f058c (127.0.0.1) 3.16ms referer=http://localhost:8889/notebooks/Untitled1.ipynb?kernel_name=python3
+[I 23:37:00.649 NotebookApp] Kernel started: 89b066b1-6bef-422e-a8b1-d69d89457a61
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[I 23:37:03.656 NotebookApp] KernelRestarter: restarting kernel (1/5)
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[I 23:37:06.665 NotebookApp] KernelRestarter: restarting kernel (2/5)
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[I 23:37:09.686 NotebookApp] KernelRestarter: restarting kernel (3/5)
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[W 23:37:10.672 NotebookApp] Timeout waiting for kernel_info reply from 89b066b1-6bef-422e-a8b1-d69d89457a61
+[I 23:37:12.518 NotebookApp] Kernel shutdown: 89b066b1-6bef-422e-a8b1-d69d89457a61
+[W 23:37:12.522 NotebookApp] delete /Untitled.ipynb
+[W 23:37:12.533 NotebookApp] delete /Untitled1.ipynb
+[I 23:37:16.738 NotebookApp] Creating new notebook in 
+[I 23:37:18.223 NotebookApp] Kernel started: 9c90cc6e-4a70-44b3-9317-27a2ddad9b98
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[I 23:37:21.233 NotebookApp] KernelRestarter: restarting kernel (1/5)
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[I 23:37:24.244 NotebookApp] KernelRestarter: restarting kernel (2/5)
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[I 23:37:27.266 NotebookApp] KernelRestarter: restarting kernel (3/5)
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[W 23:37:28.292 NotebookApp] Timeout waiting for kernel_info reply from 9c90cc6e-4a70-44b3-9317-27a2ddad9b98
+[I 23:37:30.284 NotebookApp] KernelRestarter: restarting kernel (4/5)
+WARNING:root:kernel 9c90cc6e-4a70-44b3-9317-27a2ddad9b98 restarted
+/home/pco/anaconda3/envs/aind/bin/python: No module named ipykernel_launcher
+[W 23:37:33.304 NotebookApp] KernelRestarter: restart failed
+[W 23:37:33.305 NotebookApp] Kernel 9c90cc6e-4a70-44b3-9317-27a2ddad9b98 died, removing from map.
+ERROR:root:kernel 9c90cc6e-4a70-44b3-9317-27a2ddad9b98 restarted failed!
+[W 23:37:33.327 NotebookApp] Kernel deleted before session
+[W 23:37:33.328 NotebookApp] 410 DELETE /api/sessions/5b0e7d1d-1553-4c19-8fef-4b875e8b2447 (127.0.0.1) 2.18ms referer=http://localhost:8889/notebooks/Untitled.ipynb?kernel_name=python2
+[C 23:37:46.388 NotebookApp] received signal 15, stopping
+[I 23:37:46.392 NotebookApp] Shutting down kernels
